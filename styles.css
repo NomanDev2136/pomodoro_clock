@@ -1,14 +1,37 @@
+:root {
+    --base03: #002b36;
+    --base02: #073642;
+    --base01: #586e75;
+    --base00: #657b83;
+    --base0: #839496;
+    --base1: #93a1a1;
+    --base2: #eee8d5;
+    --base3: #fdf6e3;
+    --yellow: #b58900;
+    --orange: #cb4b16;
+    --red: #dc322f;
+    --magenta: #d33682;
+    --violet: #6c71c4;
+    --blue: #268bd2;
+    --cyan: #2aa198;
+    --green: #859900;
+}
+
 body {
     text-align: center;
-    font-family: cursive;
+    font-family: 'Arial', sans-serif;
     font-weight: 900;
     background-image: url("https://www.colorbook.io/imagecreator.php?hex=ef5350&width=1920&height=1080&text=%201920x1080");
     background-size: 100% 800px;
     background-repeat: no-repeat;
     height:auto;
+    background-color: var(--base03);
+    color: var(--base0);
 
 }
-
+h1, h4 {
+    color: var(--yellow);
+}
 header {
     margin-bottom: 30px;
     color: white;
@@ -24,12 +47,17 @@ header h1 {
 
 a {
     text-decoration: none;
-    color: white;
+    color: var(--cyan);
     font-weight: 700;
 }
 
 a:hover {
     text-decoration: none;
+    color: var(--blue);
+}
+
+.header h4 a {
+    color: var(--base0);
 }
 
 .timer-div {
@@ -115,6 +143,12 @@ a:hover {
     color:white;
     margin: auto;
     margin-top: 10px;
+}
+
+.footer .social-icons i {
+    font-size: 30px;
+    color: var(--base0);
+    margin: 10px;
 }
 
 .btn {
