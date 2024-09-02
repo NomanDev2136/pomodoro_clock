@@ -144,22 +144,47 @@ a:hover {
     margin: auto;
     margin-top: 10px;
 }
-
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
 .footer .social-icons i {
     font-size: 30px;
     color: var(--base0);
     margin: 10px;
 }
+.container {
+    padding: 20px;
+}
+.session, .break, .timer, .time-length, .break-length {
+    color: var(--base1);
+}
+.header h4 a {
+    color: var(--base0);
+}
+.buttons button {
+    background-color: var(--base02);
+    color: var(--base0);
+    border: none;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
 
 .btn {
     font-variant: small-caps;
     font-weight: 300;
-    background-color: transparent;
-    color: white;
+    background-color: var(--base02);
+    color: var(--base0);
     letter-spacing: 1px;
+    border: none;
+    margin: 5px;
 }
 .btn-sm {border-radius: 50%}
-
+.btn:hover {
+    background-color: var(--base01);
+    color: var(--base2);
+}
 .btn:hover {background-color:white ;color:white; border: 1px solid white;}
 
 .session, .break { font-size: 1em;}
