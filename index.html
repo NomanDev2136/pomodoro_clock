@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <link href="style.css" rel="stylesheet">
@@ -12,60 +11,50 @@
     <script src="script.js"></script>
     <title>Pomodoro Timer</title>
 </head>
-
 <body>
 
-    <header>
-        <h1>Pomodoro Timer</h1>
-        <h4 class="small">
-            <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique" title="Pomodoro Technique">What's That?</a>
-        </h4>
-    </header>
+<header>
+    <h1>Pomodoro Timer</h1>
+    <h4 class="small">
+        <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique" title="Pomodoro Technique">What's That?</a>
+    </h4>
+</header>
 
-    <div class="container">
-        <div class="row flex-container">
-            <div class="session-control flex-item">
-                <span class="session-text flex-container-column">
-                    <p class="session">Session</p>
-                    <button class="plus btn btn-default btn-sm flex-item-column"><span class="fa fa-plus"></span></button>
-                    <p class="time-length flex-item-column">25</p>
-                    <button class="minus btn btn-default btn-sm flex-item-column"><span class="fa fa-minus"></span></button>
-                </span>
-            </div>
-
-            <div class="timer-div flex-item">
-                <p class="timer"></p>
-            </div>
-
-            <div class="break-control flex-item">
-                <span class="break-text flex-container-column">
-                    <p class="break">Break</p>
-                    <button class="plus-break btn btn-default btn-sm flex-item-column"><span class="fa fa-plus"></span></button>
-                    <p class="break-length flex-item-column">05</p>
-                    <button class="minus-break btn btn-default btn-sm flex-item-column"><span class="fa fa-minus"></span></button>
-                </span>
-            </div>
-        </div>
+<div class="container">
+    <div class="session-control">
+        <p class="session">Session</p>
+        <button class="plus btn btn-default btn-sm"><span class="fa fa-plus"></span></button>
+        <p class="time-length">25</p>
+        <button class="minus btn btn-default btn-sm"><span class="fa fa-minus"></span></button>
     </div>
 
-    <div class="buttons">
-        <button class="start"><i class="fa fa-lg fa-2x fa-play"></i></button>
-        <button class="stop"><i class="fa fa-lg fa-2x fa-pause"></i></button>
-        <button class="reset"><i class="fa fa-lg fa-2x fa-spinner"></i></button>
+    <div class="timer-div">
+        <p class="timer">25:00</p>
     </div>
 
-    <div class="footer">
-        <div class="made-with">
-            <h4 class="color">Made with ❤️ by <a href="https://github.com/NomanDev2136">Noman</a></h4>
-        </div>
-        <div class="connect">Connect with me:</div>
-        <div class="social-icons">
-            <a href="https://github.com/NomanDev2136" target="_blank">
-                <i class="fa fa-github"></i>
-            </a>
-        </div>
+    <div class="break-control">
+        <p class="break">Break</p>
+        <button class="plus-break btn btn-default btn-sm"><span class="fa fa-plus"></span></button>
+        <p class="break-length">05</p>
+        <button class="minus-break btn btn-default btn-sm"><span class="fa fa-minus"></span></button>
     </div>
+</div>
+
+<div class="buttons">
+    <button class="start"><i class="fa fa-lg fa-2x fa-play"></i></button>
+    <button class="stop"><i class="fa fa-lg fa-2x fa-pause"></i></button>
+    <button class="reset"><i class="fa fa-lg fa-2x fa-refresh"></i></button>
+</div>
+
+<div class="footer">
+    <h4>Made with ❤️ by <a href="https://github.com/NomanDev2136">Noman</a></h4>
+    <div>Connect with me:</div>
+    <div class="social-icons">
+        <a href="https://github.com/NomanDev2136" target="_blank">
+            <i class="fa fa-github"></i>
+        </a>
+    </div>
+</div>
 
 </body>
-
 </html>
